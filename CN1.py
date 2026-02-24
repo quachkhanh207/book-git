@@ -6,3 +6,4 @@ def load_data():
             return json.load(file)
     except FileNotFoundError:
         return []
+print("Khánh đẹp trai")
